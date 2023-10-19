@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Home from "./pages/home/home";
+import Login from "./pages/login/login";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   // const [backendData, setBackendData] = useState([{}]);
   // useEffect(() => {
@@ -11,7 +13,14 @@ function App() {
   // }, []);
   return (
     <div className="App">
-      <Home />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+            <Route path="login" element={<Login />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
