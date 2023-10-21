@@ -3,14 +3,6 @@ import Home from "./pages/home/home";
 import Login from "./pages/login/login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
-  // const [backendData, setBackendData] = useState([{}]);
-  // useEffect(() => {
-  //   fetch("/api")
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setBackendData(data);
-  //     });
-  // }, []);
   return (
     <div className="App">
       <BrowserRouter>

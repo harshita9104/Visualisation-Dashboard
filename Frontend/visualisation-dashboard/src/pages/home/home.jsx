@@ -1,7 +1,7 @@
 import "./home.scss";
 import Sidebar from "../../components/sidebar/sidebar";
 import Navbar from "../../components/navbar/navbar";
-import Widgets from "../../components/Widgets/widgets";
+import Widget from "../../components/Widgets/widgets";
 import Charts from "../../components/charts/chart";
 import Featured from "../../components/featured/featured";
 const Home = () => {
