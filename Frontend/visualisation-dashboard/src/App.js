@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Home from "./pages/home/home";
-import Login from "./pages/login/login";
+// import LoginPage from "./components/login/login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="login" element={<Login />} />
+            {/* <Route path="login" element={<LoginPage />} /> */}
           </Route>
         </Routes>
       </BrowserRouter>

@@ -33,7 +33,7 @@ const Widget = ({ type }) => {
       data = {
         title: "INTENSITY",
         isMoney: false,
-        link: "View all orders",
+        link: "View intensity",
         icon: (
           <ShoppingCartOutlinedIcon
             className="icon"
@@ -49,7 +49,7 @@ const Widget = ({ type }) => {
       data = {
         title: "LIKELIHOOD",
         isMoney: true,
-        link: "View net earnings",
+        link: "View likelihood",
         icon: (
           <MonetizationOnOutlinedIcon
             className="icon"
@@ -62,7 +62,7 @@ const Widget = ({ type }) => {
       data = {
         title: "RELEVANCE",
         isMoney: true,
-        link: "See details",
+        link: "view relevance",
         icon: (
           <AccountBalanceWalletOutlinedIcon
             className="icon"
